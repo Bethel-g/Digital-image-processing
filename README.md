@@ -29,7 +29,6 @@ D:\Projects\Digital-image-processing\
 │   ├── intensity_slicing.py  # Intensity level slicing
 │   └── bit_plane_slicing.py  # Bit plane slicing
 ├── main.py                   # Updated main script using src modules
-├── generate_ppt.py           # PPT generation script (15 slides)
 ├── requirements.txt
 ├── README.md
 └── .venv/                    # Python virtual environment
@@ -108,7 +107,6 @@ D:\Projects\Digital-image-processing\
 │   ├── intensity_slicing.py
 │   └── bit_plane_slicing.py
 ├── main.py                # Main script - runs all 7 methods
-├── generate_ppt.py        # Generates 15-slide PPT report
 ├── requirements.txt
 └── README.md
 ```
@@ -140,22 +138,7 @@ This will:
 - Generate all 7 image processing methods
 - Save outputs to `outputs/01_negative/` through `outputs/07_bit_plane/`
 
-### Generating the PowerPoint Report
 
-```bash
-python generate_ppt.py
-```
-
-This will create `Digital_Image_Processing_Assignment.pptx` with 15 slides:
-- Slide 1: Title and student information
-- Slide 2: Introduction to Digital Image Processing
-- Slide 3: Objectives and tools used
-- Slides 4-10: Each of the 7 image processing methods with input/output images and descriptions
-- Slide 11: RGB vs Grayscale comparison
-- Slide 12: Results and observations (analysis of all 7 methods)
-- Slide 13: Challenges encountered during implementation
-- Slide 14: Conclusion
-- Slide 15: References
 
 ### Using the src Modules
 
